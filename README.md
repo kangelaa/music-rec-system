@@ -22,4 +22,6 @@ https://github.com/kangelaa/pic16b-final-proj/tree/main/webapp
 - Navigate into the webapp directory
 - In webapp/application/routes.py, change the file path of complete_feature_set to be full_features.csv that you just downloaded
 - Run “python app.py” in terminal and go to the localhost server localhost:3001 to render the webapp on your local computer 
+
+
 [NOTE: the full_features.zip is ~12GB and will take time to download. The website will also take much longer to render/generate recommendations with the full dataset, so please be patient!]
