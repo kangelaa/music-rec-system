@@ -1,0 +1,5 @@
+Flask==2.1.2
+pandas==1.5.3
+spotipy==2.23.0
+textblob==0.17.1
+

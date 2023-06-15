@@ -1,0 +1,10 @@
+{% extends "home.html" %}
+{% block results %}
+<!-- Resulting Recommendation Component with n songs -->
+<div class='results'>
+    <h3 style='color: #000000; font-size: 18px; position: absolute; top: 50px'>Recommendations (click to listen on Spotify!)</h3>
+        {% for song in songs %}
+        <p style= 'position: relative; top: 95px' class='song' style="font-size: 11pt"> <a  style='color: #000000' href={{song[1]}} target="_blank"> {{ song[0]}} </a> </p>
+        {% endfor %}    
+</div>
+{% endblock %}
